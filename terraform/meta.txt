@@ -1,0 +1,8 @@
+#cloud-config
+users:
+    - name: prokm
+      groups: sudo
+      shell: /bin/bash
+      sudo: ['ALL=(ALL) NOPASSWD:ALL']
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILi0nneJO6KTvLm/p+8tLCtsg6eoNO34VXv+EI/0+je3 prokm@Dk452
